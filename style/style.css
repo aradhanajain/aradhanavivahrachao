@@ -1,0 +1,82 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    /*background-color: #DAA520;*/
+}
+
+#over img {
+	/*margin-left: auto;
+	margin-right: auto;*/
+    padding: 18px 30px;
+	display: block;
+    left:100px; 
+    top:300px; 
+    width:90%;
+    height: 80%;
+    margin:0px;
+}
+
+.find_life_p {
+    width:100%;
+    background:url(../middle_liner.jpg) repeat-x;
+    height:50px;
+    text-align:center;
+    font:30px/45px Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.find_life_p_agreement {
+    width:100%;
+    background:url(../middle_liner.jpg) repeat-x;
+    height:50px;
+    text-align:center;
+    font:30px/45px Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+    bottom: -1920px;
+    left: 0;
+}
+
+.box {
+    border: 5px solid;
+    padding: 18px 30px;
+    border-radius: 8px;
+    box-shadow: 9px -7px 7px 0px rgba(173,170,173,1);
+    background: #DBD9D9;
+    margin:0px;
+}
